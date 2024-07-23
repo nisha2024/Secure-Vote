@@ -1,0 +1,65 @@
+body{
+    text-align: center ; 
+    background-color: #b8e994;  
+}
+
+
+#headersection{
+    padding: 5px;
+}
+
+#headersection h1{
+    font-family: cursive;
+}
+
+input{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#dropbox{
+    padding: 10px;
+    border-radius: 5px;
+    width: 5%;
+}
+#loginbtn{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #54a0ff;
+    color: black;
+}
+#capture{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #54a0ff;
+    color: black;
+}
+/* #backbtn{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #54a0ff;
+    color: black;
+}
+#logoutbtn{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #54a0ff;
+    color: black;
+    
+} */
+
+
+/* .back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media  (min-aspect-ratio:16/9)
+{
+    .back-video{
+        width: 100%;
+        height: 100%;
+    }
+} */

@@ -1,0 +1,66 @@
+
+#backbtn {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #54a0ff;
+    color: black;
+    float: left;
+}
+
+#logoutbtn {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #54a0ff;
+    color: black;
+    float: right;
+}
+
+#profile {
+    
+    background-color: rgb(175, 199, 216);
+    width: 30%;
+    padding: 10px;
+    float: left;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+#group {
+    background-color: rgb(172, 210, 232);
+    width: 60%;
+    padding: 20px;
+    float: right;
+    margin-top: 20px;
+}
+
+#votebtn {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #54a0ff;
+    color: black;
+    float: left;
+}
+
+#mainsection {
+    padding: 25px;
+}
+
+#voted {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: green;
+    color: black;
+    float: left;
+}
+h3{
+    text-align: center;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Uncomment to add a border to the profile section
+#profile {
+    border: 5px solid black;
+}
+*/

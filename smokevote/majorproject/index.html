@@ -1,0 +1,131 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>online-voting-system</title>
+    <link rel="stylesheet" href="#">
+</head>
+<body> 
+
+<style>
+    #bodysection{
+     background-color: rgb(175, 199, 216);
+    width: 30%;
+    padding: 30px;
+    float: left;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-left: 500px;
+    }
+
+    body{
+    /* text-align: center ;  */
+    /* background-color: cadetblue; */
+    /* background-image: url(./bg.jpeg); */
+    margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url(./bg.jpeg);
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-position: left top;
+}
+
+
+#headersection{
+    padding: 5px;
+    /* background-color: #54a0ff; */
+}
+
+#headersection h1{
+    font-family: cursive;
+}
+
+input{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#dropbox{
+    padding: 10px;
+    border-radius: 5px;
+    /* width: 5%; */
+}
+#loginbtn{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #54a0ff;
+    color: black;
+}
+#capture{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #54a0ff;
+    color: black;
+}
+</style>
+
+
+     <center>
+    <div id="headersection">
+
+        <h1>Online voting system</h1>
+
+    </div>
+    <hr>
+<div id="bodysection">
+
+    <form action="login.php" method="post">
+        <h2>Login</h2>
+        <input type="number" name="mobile" placeholder="Enter mobile"><br><br>
+        <input type="password" name="password" placeholder="enter password"><br><br>       
+        <select name="role" id="dropbox">
+            <option value="1">Voter</option> 
+            <option value="2">candidate</option>
+        </select><br><br>
+        <button id="loginbtn" type="submit">Login</button><br><br>
+        <button id="capture" type="submit">capture</button><br><br>
+        <script>
+            // Function to open the capture window
+            function openCaptureWindow() {
+                const captureWindow = window.open('capture.php', 'CaptureWindow', 'width=640,height=520');
+            }
+        
+            // Event listener for the login button
+            const loginButton = document.getElementById('capture');
+            loginButton.addEventListener('click', function() {
+                openCaptureWindow();
+            });
+        </script> 
+         New User ? <a href="register.html">Register Here</a>
+    </form>
+</div>
+</center>
+</body>
+</html> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

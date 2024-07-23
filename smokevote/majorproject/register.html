@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="#">
+</head>
+<body> 
+    <style>
+        body{
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url(./bg.jpeg);
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-position: left top;
+        }
+        #all{
+     background-color: rgb(175, 199, 216);
+    width: 50%;
+    padding: 30px;
+    float: left;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-left: 350px;
+        }
+
+
+        input{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#dropbox{
+    padding: 10px;
+    border-radius: 5px;
+    width: 5%;
+}
+#loginbtn{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #54a0ff;
+    color: black;
+}
+#capture{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #54a0ff;
+    color: black;
+}
+
+
+
+
+        #depart{
+            width: 25%;
+        }
+        .imagepart{
+            border: 2px solid black;
+            border-radius: 5px;
+            padding: 10px;
+            width: 50%;
+        }
+         #dropbox{
+            border: 2px solid black;
+            border-radius: 5px;
+            padding: 10px;
+            width: 50%;
+        }
+        #dropbox select{
+            border-radius: 5px;
+            padding: 10px;
+        }
+        #btn{
+            padding: 5px;
+    border-radius: 5px;
+    background-color: #54a0ff;
+    color: black;
+        } 
+     </style>
+
+    <center>
+        <div id="all">
+    <h1>Online Voting System - Registration</h1>
+    <hr>
+    <h3>Registration</h3>
+    <form action="connect.php" method="post" enctype="multipart/form-data">
+        <input type="text" name="name" placeholder="Enter name">
+        <input type="number" name="mobile" placeholder="Enter mobile number"><br><br>
+        <input type="password" name="password" placeholder="password">
+        <input type="password" name="cpassword" placeholder="confirm password"><br><br>
+         <!-- upload image :<input type="file" name="photo"><br><br>  -->
+         Enter Department : <input type="text" id="department" name="department" placeholder="Enter department"><br><br> 
+
+        <div class="imagepart">
+       Choose file <input type="file" name="photo" >
+    </div>
+    <br> 
+         <div id="dropbox">
+        Select your role <select name="role">
+            <option value="1">Voter</option>
+            <option value="2">candidate</option>
+        </select><br><br>
+    </div>
+    
+    <br>
+        <button id="btn" type="submit" value="submit">submit</button><br><br>
+        Already User ? <a href="index.html">Login Here</a> 
+     </form>
+    </div>
+</center>
+</body>
+</html> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
